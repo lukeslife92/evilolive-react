@@ -1,0 +1,12 @@
+{
+	"media": {
+		"query_m": {
+			"value": "(min-width: 768px)",
+			"comment": "Comment"
+		},
+		"query_l": {
+			"value": "(min-width: 1024px)",
+			"comment": "Comment"
+		}
+	}
+}

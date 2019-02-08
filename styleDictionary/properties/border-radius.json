@@ -1,0 +1,24 @@
+{
+	"border": {
+		"radius_s": {
+			"value": "2px",
+			"comment": "Comment"
+		},
+		"radius_default": {
+			"value": "3px",
+			"comment": "Comment"
+		},
+		"radius_l": {
+			"value": "6px",
+			"comment": "Comment"
+		},
+		"radius_xl": {
+			"value": "12px",
+			"comment": "Comment"
+		},
+		"radius_circle": {
+			"value": "50%",
+			"comment": "Comment"
+		}
+	}
+}

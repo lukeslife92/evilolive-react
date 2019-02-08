@@ -1,0 +1,12 @@
+{
+	"size": {
+		"height_footer": {
+			"value": "64px",
+			"comment": "Comment"
+		},
+		"tappable_square": {
+			"value": "44px",
+			"comment": "Comment"
+		}
+	}
+}

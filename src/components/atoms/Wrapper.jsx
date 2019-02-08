@@ -7,7 +7,8 @@ import * as tokens from '../../tokens/variables.js';
 // some padding and a papayawhip background
 const Wrapper = styled.section({
 	padding: '4em',
-	background: tokens.ColorBasePrimary
+	background: tokens.ColorColorsZomp,
+	borderRadius: tokens.BorderRadiusCircle
 });
 
 export default Wrapper;

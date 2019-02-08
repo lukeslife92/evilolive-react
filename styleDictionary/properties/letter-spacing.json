@@ -1,0 +1,24 @@
+{
+	"letter": {
+		"spacing_xl": {
+			"value": "2px",
+			"comment": "Comment"
+		},
+		"spacing_l": {
+			"value": "1px",
+			"comment": "Comment"
+		},
+		"spacing_m": {
+			"value": "0",
+			"comment": "Comment"
+		},
+		"spacing_s": {
+			"value": "-0.5px",
+			"comment": "Comment"
+		},
+		"spacing_xs": {
+			"value": "-1px",
+			"comment": "Comment"
+		}
+	}
+}

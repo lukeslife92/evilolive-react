@@ -1,0 +1,12 @@
+{
+	"timing": {
+		"duration_quickly": {
+			"value": "0.08s",
+			"comment": "Comment"
+		},
+		"duration_slowly": {
+			"value": "0.5s",
+			"comment": "Comment"
+		}
+	}
+}

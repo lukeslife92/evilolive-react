@@ -1,18 +1,150 @@
 {
-  "color": {
-    "base": {
-      "primary": {
-        "value": "#61dafb"
-      },
-      "secondary": {
-        "value": "#fc7aa5"
-      }
-    },
-    "text": {
-      "value": "#666666"
-    },
-    "background": {
-      "value": "#EEEEEE"
-    }
-  }
+	"color": {
+		"text": {
+			"value": "#666666",
+			"comment": "Comment"
+		},
+		"background": {
+			"value": "#EEEEEE",
+			"comment": "Comment"
+		},
+		"colors": {
+			"primary": {
+				"value": "#61dafb",
+				"comment": "Comment"
+			},
+			"secondary": {
+				"value": "#fc7aa5",
+				"comment": "Comment"
+			},
+			"gradient_red_hi": {
+				"value": "#d94e47",
+				"comment": "Comment"
+			},
+			"gradient_red_lo": {
+				"value": "#df1165",
+				"comment": "Comment"
+			},
+			"charlestone_green": {
+				"value": "#2E282A",
+				"comment": "Comment"
+			},
+			"zomp": {
+				"value": "#43AA8B",
+				"comment": "Comment"
+			},
+			"coral_red": {
+				"value": "#FB3640",
+				"comment": "Comment"
+			},
+			"dark_vanilla": {
+				"value": "#CACAAA",
+				"comment": "Comment"
+			},
+			"oxford_blue": {
+				"value": "hsla(210, 100%, 15%, 1)",
+				"comment": "Comment"
+			},
+			"rich_black": {
+				"value": "#001123",
+				"comment": "Comment"
+			},
+			"white": {
+				"value": "#fff",
+				"comment": "Comment"
+			},
+			"royal_blue": {
+				"value": "#0A2463",
+				"comment": "Comment"
+			},
+			"silver": {
+				"value": "#7F8891",
+				"comment": "Comment"
+			},
+			"cloud": {
+				"value": "#E9F3FD",
+				"comment": "Comment"
+			},
+			"apple_green_darker": {
+				"value": "hsla(73.5, 100%, 27.6%, 1)",
+				"comment": "Comment"
+			},
+			"apple_green_dark": {
+				"value": "hsla(73.5, 100%, 32.3%, 1)",
+				"comment": "Comment"
+			},
+			"apple_green": {
+				"value": "hsla(73.5, 100%, 35.7%, 1)",
+				"comment": "Comment"
+			},
+			"apple_green_light": {
+				"value": "hsla(73.5, 100%, 38.9%, 1)",
+				"comment": "Comment"
+			},
+			"apple_green_lighter": {
+				"value": "hsla(73.5, 100%, 42.3%, 1)",
+				"comment": "Comment"
+			},
+			"bleu_de_france_darker": {
+				"value": "hsla(210, 86%, 34%, 1)",
+				"comment": "Comment"
+			},
+			"bleu_de_france_dark": {
+				"value": "hsla(210, 86%, 44%, 1)",
+				"comment": "Comment"
+			},
+			"bleu_de_france": {
+				"value": "hsla(210, 86%, 54%, 1)",
+				"comment": "Comment"
+			},
+			"bleu_de_france_light": {
+				"value": "hsla(210, 86%, 64%, 1)",
+				"comment": "Comment"
+			},
+			"bleu_de_france_lighter": {
+				"value": "hsla(210, 86%, 74%, 1)",
+				"comment": "Comment"
+			},
+			"vermilion_darker": {
+				"value": "hsla(7, 83%, 33%, 1)",
+				"comment": "Comment"
+			},
+			"vermilion_dark": {
+				"value": "hsla(7, 83%, 43%, 1)",
+				"comment": "Comment"
+			},
+			"vermilion": {
+				"value": "hsla(7, 83%, 53%, 1)",
+				"comment": "Comment"
+			},
+			"vermilion_light": {
+				"value": "hsla(7, 83%, 63%, 1)",
+				"comment": "Comment"
+			},
+			"vermilion_lighter": {
+				"value": "hsla(7, 83%, 75%, 1)",
+				"comment": "Comment"
+			},
+			"ucla_gold_darker": {
+				"value": "hsla(43, 100%, 35%, 1)",
+				"comment": "Comment"
+			},
+			"ucla_gold_dark": {
+				"value": "hsla(43, 100%, 45%, 1)",
+				"comment": "Comment"
+			},
+			"ucla_gold": {
+				"value": "hsla(43, 100%, 52%, 1)",
+				"comment": "Comment"
+			},
+			"ucla_gold_light": {
+				"value": "hsla(43, 100%, 65%, 1)",
+				"comment": "Comment"
+			},
+			"ucla_gold_lighter": {
+				"value": "hsla(43, 100%, 75%, 1)",
+				"comment": "Comment"
+			}
+		}
+	}
 }

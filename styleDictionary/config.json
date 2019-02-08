@@ -21,6 +21,124 @@
 					"format": "javascript/es6"
 				}
 			]
+		},
+		"json": {
+			"transformGroup": "web",
+			"buildPath": "./src/tokens/",
+			"files": [
+				{
+					"destination": "variables.json",
+					"format": "json/nested"
+				}
+			]
+		},
+		"assets/embed/scss": {
+			"transforms": ["attribute/cti", "name/cti/camel", "asset/base64"],
+			"buildPath": "./src/tokens/scss/",
+			"files": [
+				{
+					"destination": "assets_icons.scss",
+					"format": "scss/variables",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "icon"
+						}
+					}
+				},
+				{
+					"destination": "assets_images.scss",
+					"format": "scss/variables",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "image"
+						}
+					}
+				},
+				{
+					"destination": "assets_fonts.scss",
+					"format": "scss/variables",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "font"
+						}
+					}
+				}
+			]
+		},
+		"assets/embed/js": {
+			"transforms": ["attribute/cti", "name/cti/camel", "asset/base64"],
+			"buildPath": "./src/tokens/js/",
+			"files": [
+				{
+					"destination": "assets_icons.js",
+					"format": "javascript/es6",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "icon"
+						}
+					}
+				},
+				{
+					"destination": "assets_image.js",
+					"format": "javascript/es6",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "image"
+						}
+					}
+				},
+				{
+					"destination": "assets_font.js",
+					"format": "javascript/es6",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "font"
+						}
+					}
+				}
+			]
+		},
+		"assets/embed/json": {
+			"transforms": ["attribute/cti", "name/cti/camel", "asset/base64"],
+			"buildPath": "./src/tokens/json/",
+			"files": [
+				{
+					"destination": "assets_icons.json",
+					"format": "json/flat",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "icon"
+						}
+					}
+				},
+				{
+					"destination": "assets_images.json",
+					"format": "json/flat",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "image"
+						}
+					}
+				},
+				{
+					"destination": "assets_fonts.json",
+					"format": "json/flat",
+					"filter": {
+						"attributes": {
+							"category": "asset",
+							"type": "font"
+						}
+					}
+				}
+			]
 		}
 	}
 }

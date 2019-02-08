@@ -1,0 +1,12 @@
+{
+	"z-index": {
+		"modal": {
+			"value": "9999",
+			"comment": "Comment"
+		},
+		"sticky": {
+			"value": "100",
+			"comment": "Comment"
+		}
+	}
+}

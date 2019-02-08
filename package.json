@@ -9,7 +9,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"styleguide": "styleguidist server",
 		"styleguide:build": "styleguidist build",
-		"tokens:build": "style-dictionary build --config ./styleDictionary/config.json",
+		"tokens:build": "npm-run-all tokens:clean && style-dictionary build --config ./styleDictionary/config.json",
 		"tokens:clean": "rm -rf ./src/tokens",
 		"tokens:watch": "npm run tokens:build && chokidar 'styleDictonary/**/*.json' -c 'npm run tokens:build'",
 		"webpack:start": "webpack-dev-server --mode development",
